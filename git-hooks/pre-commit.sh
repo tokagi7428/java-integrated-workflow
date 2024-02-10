@@ -1,1 +1,1 @@
-./gradlew test
+chmod +x gradlew
