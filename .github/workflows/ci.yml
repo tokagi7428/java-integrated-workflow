@@ -16,4 +16,4 @@ jobs:
             java-version: '17'
             distribution: 'zulu'
       -   name: Run Unit Tests
-          run: ./gradlew test
+          run: chmod +x gradlew test
