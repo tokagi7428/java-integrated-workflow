@@ -1,0 +1,12 @@
+version: "4.0"
+
+services:
+  test:
+    image: amazoncorretto:17.0.0-alpine3.12
+    container_name: chapter10-starter
+    working_dir: /app
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+    command: ./gradlew test
